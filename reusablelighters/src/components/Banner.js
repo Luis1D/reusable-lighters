@@ -15,9 +15,9 @@ const Banner = () => {
                     className="lighter"
                 />
                 <img 
-                    src='https://www.dropbox.com/s/zn1bn7okco599j1/lighter-nobg.png?raw=1'
+                    src='https://www.dropbox.com/s/8avnxi4pj78lacp/second-lighter.png?raw=1'
                     alt="lighter"
-                    className="lighter"
+                    className="lighter second-lighter"
                 />
                 <img 
                     src='https://www.dropbox.com/s/zn1bn7okco599j1/lighter-nobg.png?raw=1'
