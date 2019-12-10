@@ -10,17 +10,17 @@ const Banner = () => {
             </div>
             <div className="img-container">
                 <img 
-                    src='https://www.dropbox.com/s/lcggr9uwwf5ewd0/lighter-nobg.png?raw=1'
+                    src='https://www.dropbox.com/s/zn1bn7okco599j1/lighter-nobg.png?raw=1'
                     alt="lighter"
                     className="lighter"
                 />
                 <img 
-                    src='https://www.dropbox.com/s/lcggr9uwwf5ewd0/lighter-nobg.png?raw=1'
+                    src='https://www.dropbox.com/s/zn1bn7okco599j1/lighter-nobg.png?raw=1'
                     alt="lighter"
                     className="lighter"
                 />
                 <img 
-                    src='https://www.dropbox.com/s/lcggr9uwwf5ewd0/lighter-nobg.png?raw=1'
+                    src='https://www.dropbox.com/s/zn1bn7okco599j1/lighter-nobg.png?raw=1'
                     alt="lighter"
                     className="lighter"
                 />
