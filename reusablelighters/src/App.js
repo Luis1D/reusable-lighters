@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Featured from './components/Featured';
+import Footer from './components/Footer';
 import './styles/app.scss';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Banner />
       <Featured />
+      <Footer />
     </div>
   );
 }
