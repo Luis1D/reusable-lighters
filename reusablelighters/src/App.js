@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.css';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import './styles/app.scss';
 
 function App() {
   return (
     <div className="App">
-      <h1>ReusableLighters</h1>
+      <Header />
+      <Banner />
     </div>
   );
 }
