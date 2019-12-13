@@ -10,10 +10,43 @@ const Featured = () => {
                     <div className="product-details-container">
                         <div>
                             <h4>Electric Lighter</h4>
-                            <span>Customer Rating <br/> 4.5 out of 5</span>
+                            <h5>Customer Rating</h5>
+                            <div className="rating-container">
+                                <img
+                                    src={ require('../assets/yellow-star.svg') }
+                                    alt="star icon"
+                                    className="star-icon"
+                                />
+                                <img
+                                    src={ require('../assets/yellow-star.svg') }
+                                    alt="star icon"
+                                    className="star-icon"
+                                />
+                                <img
+                                    src={ require('../assets/yellow-star.svg') }
+                                    alt="star icon"
+                                    className="star-icon"
+                                />
+                                <img
+                                    src={ require('../assets/yellow-star.svg') }
+                                    alt="star icon"
+                                    className="star-icon"
+                                />
+                                <img
+                                    src={ require('../assets/star.svg') }
+                                    alt="star icon"
+                                    className="star-icon"
+                                />
+                            </div>
                         </div>
-                        <p className="price">$15.99</p>
-                        <button>Buy on Amazon</button>
+                        <div className="price-container">
+                            <p className="price">$15.99</p>
+                            <p>+ Shipping / Tax</p>
+                        </div>
+                        <div className="button-container">
+                            <button className="add-design-btn">Add Design</button>
+                            <button>Add To Cart</button>
+                        </div>
 
                     </div>
                     <div className="img-container">
@@ -24,7 +57,7 @@ const Featured = () => {
                         />
                     </div>
                 </div>
-                <div className="product">
+                {/* <div className="product">
                     <div className="product-details-container">
                         <div>
                             <h4>Electric Lighter</h4>
@@ -59,7 +92,7 @@ const Featured = () => {
                             className="product-img"
                         />
                     </div>
-                </div>
+                </div> */}
             </div>
 
         </div>

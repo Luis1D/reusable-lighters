@@ -9,74 +9,113 @@
     margin-top: 2rem;
 
     hr {
-        border: .5px solid rgba(128, 128, 128, 0.253);
+        border: .5px solid $Char;
+        margin-bottom: .15rem;
     }
     h3 {
-        color: $OffWhite;
+        color: $Black;
         padding: 0 0 .5rem 0;
     }
     .product-container {
-        width: 100%;
+        // width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-top: 1rem;
 
         .product {
             display: flex;
             justify-content: space-between;
             width: 100%;
             margin: .25rem;
-            background-color: $OffWhite;
+            background-image: linear-gradient(to bottom left, rgb(12, 12, 12), $Char);
 
             @media(min-width: 650px) {
                 margin-right: 2rem;
             }
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 5rem;
+
+                .add-design-btn {
+                    background-color: $Char;
+                    border: 1px solid rgba(255, 255, 255, 0.507);
+                    color: $DimWhite;
+                }
+            }
 
             .product-details-container {
+                // border: 1px solid red;
                 margin: .25rem;
-                width: 70%;
-                padding: .25rem;
+                width: 90%;
+                padding: .25rem 0 .25rem 1rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
 
+                .rating-container {
+                    margin-top: .25rem;
+                }
+                .star-icon {
+                    width: 1rem;
+                    margin-right: .25rem;
+                }
+
                 h4 {
+                    color: $DimWhite;
                     font-size: 1.5rem;
+                }
+                h5 {
+                    margin-top: .25rem;
+                    color: $DimWhite;
+                    font-weight: lighter;
                 }
                 span, p {
                     font-size: .95rem;
-                    color: $LightChar;
+                    color: $DimWhite;
+                    opacity: .9;
+                }
+                .price-container {
+                    height: 3.75rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
                 }
                 .price {
-                    color: $Char;
+                    color: $DimWhite;
                     font-weight: bold;
-                    font-size: 1rem;
+                    font-size: 2rem;
                 }
                 button {
                     height: 2rem;
                     font-size: .9rem;
                     font-weight: bold;
                     border: 0;
-                    background-color: $Amazon;
+                    outline: none;
+                    background-color: $Blue;
                     color: $Char;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
 
             .img-container {
-                background-color: rgb(19, 19, 19);
-                height: 14rem;
-                width: 8rem;
+                // background-color: rgb(19, 19, 19);
+                height: 25rem;
+                width: 100%;
                 overflow: hidden;
                 display: flex;
+                padding: 1rem 0 2rem 0;
             }
             .product-img {
-                // width: 4.5rem;
-                height: 12rem;
+                height: 100%;
                 transform: rotate(-10deg);
-                margin: 0 0 0 .75rem;
-                background-color: rgb(19, 19, 19);
+                // margin: 0 0 0 .75rem;
+                margin: 0 auto;
                 padding: 1rem;
             }
             .second-img {
