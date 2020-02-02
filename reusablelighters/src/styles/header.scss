@@ -1,70 +1,23 @@
 @import 'variables';
 
 .Header {
-    background-color: $Char;
+    background-color: $Black;
     color: $DimWhite;
-    height: 3.5rem;
+    height: 4rem;
     display: flex;
-    flex-direction: column;
-    padding: 0 0 0 5%;
-    align-items: left;
-    justify-content: center;
+    flex-direction: row;
+    padding: 0 0 0 2%;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 1rem;
 
-    .header-line {
-        width: 100%;
-        border: .5px solid $LightChar;
-        margin: .5rem 0 0 0;
-    }
     h1 {
         font-size: 1.25rem;
         text-align: left;
         line-height: 1.25rem;
         text-transform: uppercase;
     }
-
-    .nav-menu {
-        width: 20rem;
-        // border: 1px solid red;
-        
-        .menu-icon {
-            width: 4rem;
-            margin: 0 auto;
-            margin-top: .25rem;
-
-            .bar {
-                background-color: $OffWhite;
-                width: 3.25rem;
-                height: .35rem;
-                margin: 0 auto;
-                margin-bottom: .35rem;
-            }
-        }
-        .nav-list {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            width: 100%;
-            height: 2.25rem;
-            display: none;
-        }
-        li {
-                text-align: center;
-                width: 100%;
-                list-style: none;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                padding: 0 .5rem 0 .5rem;
-                &:hover {
-                    cursor: pointer;
-                    color: $DimWhite;
-                    background-color: #000;
-                    transition: .25s ease;
-                }
-            }
-            a {
-                color: $OffWhite;
-            }
+    img {
+        width: 3rem;
     }
 }
