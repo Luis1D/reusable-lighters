@@ -14,8 +14,8 @@ function App() {
       <div className="product-list">
         {
           productList.map(product => {
-            return <a href={ product.href } target="_blank">
-            <div key={ product.id } className="product-container">
+            return <a href={ product.href } target="_blank" key={ product.id }>
+            <div className="product-container">
               <div>          
                   <img src={ product.src1 } />
                 <img src={ product.src2 } alt="amazon ad" className="empty-img" />
