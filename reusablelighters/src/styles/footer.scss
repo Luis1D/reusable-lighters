@@ -4,4 +4,17 @@
     height: 15rem;
     margin-top: 2rem;
     background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        color: $DimWhite;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        a {
+            color: grey;
+        }
+    }
 }
