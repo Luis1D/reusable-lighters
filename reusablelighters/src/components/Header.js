@@ -31,7 +31,13 @@ const Header = () => {
                 <h1 onClick={ menuTrigger }>X</h1>
                     <ul>
                         <li>Contact</li>
-                        <span>contact@reusablelighters.com</span>
+                        <form className="contact-form">
+                            <label>Email</label>
+                            <input placeholder="email" type="email" />
+                            <label>Message</label>
+                            <textarea placeholder="Enter message" type="text" />
+                            <button>Submit</button>
+                        </form>
                     </ul>
                 </div>
             </div>

@@ -26,21 +26,6 @@ const Carousel = () => {
                 />
             </div>
         </Slider>
-        // <div className="carousel">
-        //     <img
-        //         src={ require('../assets/carousel-imgs/img-1.png') }
-        //         alt="banner one"
-        //     />
-        //     <img
-        //         src={ require('../assets/carousel-imgs/img-2.png') }
-        //         alt="banner one"
-        //     />
-        //     <img
-        //         src={ require('../assets/carousel-imgs/img-3.png') }
-        //         alt="banner one"
-        //     />
-        // </div>
-        
     )
 }
 
