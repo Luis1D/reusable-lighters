@@ -1,0 +1,17 @@
+@import 'variables';
+
+.carousel {
+    max-width: 50rem;
+    max-height: 30rem;
+    overflow: hidden;
+    margin: 0 auto;
+
+    @media(max-width: 830px) {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .img {
+        width: 100%;
+    }
+}

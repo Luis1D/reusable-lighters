@@ -31,6 +31,7 @@ const Header = () => {
                 <h1 onClick={ menuTrigger }>X</h1>
                     <ul>
                         <li>Contact</li>
+                        <span>contact@reusablelighters.com</span>
                     </ul>
                 </div>
             </div>
