@@ -20,9 +20,11 @@
         align-items: center;
     }
     .logo-title {
-        font-size: 2rem;
+        font-family: $FugazOne;
+        font-weight: lighter;
+        font-size: 1.75rem;
         text-align: left;
-        line-height: 1.25rem;
+        line-height: 1.5rem;
         text-transform: uppercase;
         color: $White;
         @media(max-width: 455px) {

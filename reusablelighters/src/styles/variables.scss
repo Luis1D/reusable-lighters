@@ -1,3 +1,4 @@
+// COLORS
 $Black: rgb(12, 12, 12);
 $Char: rgb(37, 35, 35);
 $LightChar: rgb(78, 78, 78);
@@ -8,3 +9,9 @@ $Vanila: rgb(221, 216, 216);
 $Blue: rgb(67, 186, 255);
 $Amazon: #f08804;
 $Yellow: rgb(241, 226, 3);
+
+// FONTS
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+$Bungee: 'Bungee', serif;
+$FugazOne: 'Fugaz One', serif;

@@ -15,7 +15,7 @@ const Header = () => {
                         className="logo"
                     />
                     {/* Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */}
-                    <h1 className="logo-title">Reusable Lighters</h1>
+                    <h1 className="logo-title">Reusable<br/>Lighters</h1>
                 </div>
                 <div className="container">
                     <img

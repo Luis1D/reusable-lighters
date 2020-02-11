@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Carousel />
+      <h2 className="section-header">Product List</h2>
       <div className="product-list">
         {
           productList.map(product => {

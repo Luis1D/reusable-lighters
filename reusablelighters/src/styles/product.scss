@@ -1,5 +1,16 @@
 @import 'variables';
 
+
+.section-header {
+        font-size: 2rem;
+        font-family: $FugazOne;
+        text-transform: uppercase;
+        font-weight: lighter;
+        border-bottom: 2px solid $Char;
+        max-width: 20rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+}
 .product-list {
     display: flex;
     flex-direction: row;   
