@@ -64,3 +64,9 @@
         border: 1px solid $Black;
     }
 }
+.product-img-loading {
+    width: 75%;
+    height: 10rem;
+    margin: 0 auto;
+    background-color: $LoadingGrey;
+}

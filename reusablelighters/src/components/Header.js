@@ -10,7 +10,7 @@ const Header = () => {
             <div className="main-header">
                 <div className="container">
                     <img
-                        src={ require('../assets/bolt.svg') }
+                        src="https://www.dropbox.com/s/thopqecn0v79681/bolt.svg?raw=1"
                         alt="logo"
                         className="logo"
                     />
@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
                 <div className="container">
                     <img
-                        src={ require('../assets/menu.svg') }
+                        src="https://www.dropbox.com/s/yzy5ee9sfjki4ye/menu.svg?raw=1"
                         alt="menu"
                         className="menu-icon"
                         onClick={ menuTrigger }
