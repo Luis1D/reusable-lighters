@@ -55,27 +55,33 @@ const Products = () => {
                             </div>
                             {
                                 productImg.init ?
-                                    <img 
-                                        src={ product.src1 } 
-                                        alt="product"
-                                        onLoad={ handleOnLoad }
-                                        onError={ handleOnError } 
-                                    />
+                                    <div className="focused-img-container">
+                                        <img 
+                                            src={ product.src1 } 
+                                            alt="product"
+                                            onLoad={ handleOnLoad }
+                                            onError={ handleOnError } 
+                                        />
+                                    </div>
                                     :
-                                    focuesedProduct.id === product.id ? 
-                                    <img 
-                                        src={ productImg.url } 
-                                        alt="product"
-                                        onLoad={ handleOnLoad }
-                                        onError={ handleOnError } 
-                                    /> 
+                                    focuesedProduct.id === product.id ?
+                                    <div className="focused-img-container"> 
+                                        <img 
+                                            src={ productImg.url } 
+                                            alt="product"
+                                            onLoad={ handleOnLoad }
+                                            onError={ handleOnError } 
+                                        /> 
+                                    </div>
                                     : 
-                                    <img 
-                                        src={ product.src1 } 
-                                        alt="product"
-                                        onLoad={ handleOnLoad }
-                                        onError={ handleOnError } 
-                                    />
+                                    <div className="focused-img-container">
+                                        <img 
+                                            src={ product.src1 } 
+                                            alt="product"
+                                            onLoad={ handleOnLoad }
+                                            onError={ handleOnError } 
+                                        />
+                                    </div>
 
                             }
                             
