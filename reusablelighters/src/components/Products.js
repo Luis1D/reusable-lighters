@@ -22,14 +22,29 @@ const Products = () => {
                     <div>
                         {
                             loaded ?  null : <div className="product-img-loading"></div>
-                        }          
-                        <img 
-                            src={ product.src1 } 
-                            alt="product"
-                            onLoad={ handleOnLoad }
-                            onError={ handleOnError } 
-                        />
-                        <img src={ product.src2 } alt="amazon ad" className="empty-img" />
+                        } 
+                        <div className="image-container">         
+                            <div className="img-preview">
+                                { 
+                                    product.photos.map(photo => {
+                                        return <div className="product-photo-container">
+                                        <img
+                                            src={ photo.url }
+                                            alt="product"
+                                            className="product-photo"
+                                        />
+                                        </div>
+                                    })
+                                }
+                            </div>
+                            <img 
+                                src={ product.src1 } 
+                                alt="product"
+                                onLoad={ handleOnLoad }
+                                onError={ handleOnError } 
+                            />
+                            <img src={ product.src2 } alt="amazon ad" className="empty-img" />
+                        </div>
                     </div>
                     <h2>{ product.title }</h2>
                     <h3>${ product.price }</h3>
