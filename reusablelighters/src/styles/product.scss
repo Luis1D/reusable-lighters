@@ -42,9 +42,16 @@
     }
     .product-photo-container {
         height: 20%;
+        
 
         .product-photo {
             width: 100%;
+            border: 1px solid $DimWhite;
+
+            &:hover {
+                cursor: pointer;
+                border: 1px solid $LightChar;
+            }
         }
     }
     .image-container {

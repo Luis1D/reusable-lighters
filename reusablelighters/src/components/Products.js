@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
 import productList from '../data/productList';
+import Slider from 'infinite-react-carousel';
 
 const Products = () => {
     const [loaded, setLoaded] = useState(false);
+    const [focuesedProduct, setFocusedProduct] = useState();
+    const [productImg, setProductImg] = useState({
+        init: true,
+        url: "",
+        productID: null
+    });
 
     const handleOnLoad = () => {
         setLoaded(true);
@@ -10,6 +17,14 @@ const Products = () => {
 
     const handleOnError = () => {
         console.log("Network Connection Error. Could not retrieve images")
+    }
+    const previewImg = (url, product) => {
+        setFocusedProduct(product);
+        setProductImg({
+            init: false,
+            url: url,
+            productID: product.id
+        })
     }
 
     return (
@@ -32,17 +47,38 @@ const Products = () => {
                                             src={ photo.url }
                                             alt="product"
                                             className="product-photo"
+                                            onClick={ () => previewImg(photo.url, product) }
                                         />
                                         </div>
                                     })
                                 }
                             </div>
-                            <img 
-                                src={ product.src1 } 
-                                alt="product"
-                                onLoad={ handleOnLoad }
-                                onError={ handleOnError } 
-                            />
+                            {
+                                productImg.init ?
+                                    <img 
+                                        src={ product.src1 } 
+                                        alt="product"
+                                        onLoad={ handleOnLoad }
+                                        onError={ handleOnError } 
+                                    />
+                                    :
+                                    focuesedProduct.id === product.id ? 
+                                    <img 
+                                        src={ productImg.url } 
+                                        alt="product"
+                                        onLoad={ handleOnLoad }
+                                        onError={ handleOnError } 
+                                    /> 
+                                    : 
+                                    <img 
+                                        src={ product.src1 } 
+                                        alt="product"
+                                        onLoad={ handleOnLoad }
+                                        onError={ handleOnError } 
+                                    />
+
+                            }
+                            
                             <img src={ product.src2 } alt="amazon ad" className="empty-img" />
                         </div>
                     </div>

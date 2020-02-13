@@ -7,7 +7,6 @@ const Carousel = () => {
     const handleOnLoad = () => {
         setLoaded(true);
     }
-
     const handleOnError = () => {
         console.log("Network Connection Error. Could not retrieve images")
     }
