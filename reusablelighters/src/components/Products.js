@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import productList from '../data/productList';
-import Slider from 'infinite-react-carousel';
+import React, { useState, useContext } from 'react';
+import productContext from '../contexts/productContext';
 
 const Products = () => {
+    const products = useContext(productContext);
     const [loaded, setLoaded] = useState(false);
     const [focuesedProduct, setFocusedProduct] = useState();
     const [productImg, setProductImg] = useState({
@@ -32,7 +32,8 @@ const Products = () => {
             <h2 className="section-header">Product List</h2>
             <div className="product-list">
                 {
-                productList.map(product => {
+                products ? 
+                products.map(product => {
                     return <div className="product-container" key={ product.id }>
                     <div>
                         {
@@ -94,7 +95,7 @@ const Products = () => {
                         <button>View Product</button>
                     </a>
                     </div>
-                })
+                }) : null
                 }
             </div>
         </div>

@@ -6,6 +6,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li2&o=1&a=B07ZH2ZCP7",
       title: "Arc Lighter USB Rechargeable Electric Lighters Windproof Flameless Lighter Arc Plasma Lighter with LED Battery Indicator",
       price: "16.99",
+      keywords: ["compact"],
       photos: [
         { url: "https://www.dropbox.com/s/ztgam6rkxqhtzcy/img-one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/cm1lb4i6ktqvpa6/img-two.png?raw=1", id: 2},
@@ -19,6 +20,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B07T2D1VT2",
       title: "lcfun Waterproof Lighter Outdoor Windproof Lighter Dual Arc Electric Lighters Rechargeable-Flameless-Plasma Lighter for Camping,Hiking,Outdoor Adventure,Survival Tactical",
       price: "15.79",
+      keywords: ["compact","outdoors"],
       photos: [
         { url: "https://www.dropbox.com/s/wlsicnw3w1sabok/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/m51rs7scpgvmjxe/two.png?raw=1", id: 2 },
@@ -32,6 +34,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B07L61G21Q",
       title: "Lighter, Electric Arc Lighter USB Rechargeable Lighter Windproof Flameless Lighter Plasma Lighter with Battery Indicator (Upgraded) for Fire, Cigarette, Candle - Outdoors Indoors (Bright-Black)",
       price: "14.95",
+      keywords: ["compact"],
       photos: [
         { url: "https://www.dropbox.com/s/xvbm2dlbgvedutv/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/857g32lr3ljs1ba/two.png?raw=1", id: 2 },
@@ -45,6 +48,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B075R77L73",
       title: "Dual Arc Plasma Lighter USB Rechargeable Windproof Flameless Butane Free Electric Lighter for Cigar,Cigarette,Candle",
       price: "16.99",
+      keywords: ["compact"],
       photos: [
         { url: "https://www.dropbox.com/s/tf9rbj31lt8qlry/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/izfe69mkylne84d/two.png?raw=1", id: 2 },
@@ -58,6 +62,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B07N384FNF",
       title: "RONXS Lighter, Upgraded Candle Lighter Camping Lighter Grill Lighter USB Lighter Plasma Arc with LED Battery Display Safety Switch, Longer Flexible Neck for Candle Cooking BBQs Fireworks",
       price: "17.99",
+      keywords: ["extended"],
       photos: [
         { url: "https://www.dropbox.com/s/55v37bnsioikpqe/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/wzs48bqiaoaz19x/two.png?raw=1", id: 2 },
@@ -71,6 +76,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B07F9KMY2T",
       title: "SUPRUS Lighter Candle Lighter Electric Arc Coil with UpgradeBatteryIndicator Triple Safety Rechargeable Flameless Windproof Portable 6.89IN Low Noise Stainless Steel No Spark&Smell Pocket Size Giftbox",
       price: "16.99",
+      keywords: ["extended"],
       photos: [
         { url: "https://www.dropbox.com/s/xvzvun4myxln3p8/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/enak3czpbbb9g91/two.png?raw=1", id: 2 },
@@ -84,6 +90,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B016P8A1K4",
       title: "Tesla Coil Lighters™ USB Rechargeable Windproof Arc Lighter",
       price: "16.99",
+      keywords: ["compact"],
       photos: [
         { url: "https://www.dropbox.com/s/7yruvzk78hxqkvu/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/j04y1ge6ldysvpr/two.png?raw=1", id: 2 },
@@ -97,6 +104,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B01A02F714",
       title: "Tesla Coil Lighters™ USB Rechargeable Windproof Dual Arc Lighter",
       price: "18.99",
+      keywords: ["compact"],
       photos: [
         { url: "https://www.dropbox.com/s/nltjt487kb5oc4y/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/zldqxiyf8ovopt4/two.png?raw=1", id: 2 },
@@ -110,6 +118,7 @@ const productList = [
       src2: "https://ir-na.amazon-adsystem.com/e/ir?t=reusablelight-20&language=en_US&l=li3&o=1&a=B01KYCLJV2",
       title: "Tesla Coil Lighters Metal Minimalist USB Rechargeable Windproof Arc Lighter",
       price: "18.99",
+      keywords: ["compact"],
       photos: [
         { url: "https://www.dropbox.com/s/24xjn4ab1vuayiy/one.png?raw=1", id: 1 },
         { url: "https://www.dropbox.com/s/qfbrqdu3jda00bu/two.png?raw=1", id: 2 },
