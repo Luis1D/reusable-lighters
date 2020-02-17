@@ -23,7 +23,6 @@ function App() {
       const filter = item.keywords.map(keyword => {
         return keyword;
       })
-      console.log(filter)
       return filter.includes("compact");
     }))
   }
@@ -32,7 +31,6 @@ function App() {
       const filter = item.keywords.map(keyword => {
         return keyword;
       })
-      console.log(filter)
       return filter.includes("outdoors");
     }))
   }
@@ -41,9 +39,11 @@ function App() {
       const filter = item.keywords.map(keyword => {
         return keyword;
       })
-      console.log(filter)
       return filter.includes("extended");
     }))
+  }
+  const handleAllFilter = () => {
+    setProducts(productList)
   }
 
   return (
@@ -52,11 +52,11 @@ function App() {
         <Header />
         <div className="Navigation">
             <nav>
-                <span>Filters :</span>
                 <ul>
                     <li onClick={ handleCompactFilter }>Compact</li>
                     <li onClick={ handleOutdoorsFilter }>Outdoors</li>
                     <li onClick={ handleExtendFilter }>Extended</li> 
+                    <li onClick={ handleAllFilter }>All</li> 
                 </ul>
             </nav>
         </div>
