@@ -28,7 +28,7 @@ const Products = () => {
     }
 
     return (
-        <div>
+        <div id="Products">
             <h2 className="section-header">Product List</h2>
             <div className="product-list">
                 {

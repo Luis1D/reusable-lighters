@@ -36,6 +36,13 @@ const Header = () => {
                         onClick={ menuTrigger }
                     />
                 </div> */}
+                <a href="#Products">
+                    <img 
+                        src={ require('../assets/down-arrow.svg') }
+                        alt="down arrow"
+                        className="down-arrow"
+                    />
+                </a>
             </div>
             {/* <div className="menu-container">
                 <div className={ menu ? "menu-active" : "menu-hidden" }>

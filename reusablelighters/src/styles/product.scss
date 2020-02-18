@@ -1,6 +1,9 @@
 @import 'variables';
 
 
+#Products {
+    margin-top: 3rem;
+}
 .section-header {
         font-size: 2rem;
         font-family: $FugazOne;
@@ -9,7 +12,6 @@
         border-bottom: 2px solid $Char;
         max-width: 20rem;
         margin: 0 auto;
-        margin-top: 8rem; 
         @media(min-width: 930px) {
             margin-top: 5rem;
         }
