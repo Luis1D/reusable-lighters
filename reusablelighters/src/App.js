@@ -53,10 +53,10 @@ function App() {
         <div className="Navigation">
             <nav>
                 <ul>
-                    <li onClick={ handleCompactFilter }>Compact</li>
-                    <li onClick={ handleOutdoorsFilter }>Outdoors</li>
-                    <li onClick={ handleExtendFilter }>Extended</li> 
-                    <li onClick={ handleAllFilter }>All</li> 
+                    <a href="#Products"><li onClick={ handleCompactFilter }>Compact</li></a>
+                    <a href="#Products"><li onClick={ handleOutdoorsFilter }>Outdoors</li></a>
+                    <a href="#Products"><li onClick={ handleExtendFilter }>Extended</li></a>
+                    <a href="#Products"><li onClick={ handleAllFilter }>All</li></a>
                 </ul>
             </nav>
         </div>
