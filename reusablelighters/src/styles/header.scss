@@ -13,11 +13,16 @@
     align-items: center;
     justify-content: space-between;
 
+    @media(min-width: 500px) {
+        height: 60rem;
+    }
+
     .container {
         display: flex;
         align-items: center;
-        justify-content: left;
-        width: 100%;
+        justify-content: center;
+        width: 90%;
+        padding-right: 2.5rem;
         padding-top: 15rem;
         height: 5rem;
     }
@@ -120,5 +125,11 @@
         cursor: pointer;
         padding-bottom: 1rem;
         transition: .25s;
+    }
+    @media(max-height: 570px) {
+        margin-bottom: 8rem;
+    }
+    @media(max-height: 630px) {
+        margin-bottom: 6rem;
     }
 }
